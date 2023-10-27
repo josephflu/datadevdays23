@@ -10,3 +10,5 @@ popd
 
 export DOCKER_BUILDKIT=1
 docker build -t bridge_with_drivers .
+
+#
