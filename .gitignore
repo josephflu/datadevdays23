@@ -3,12 +3,14 @@
 .vscode/
 venv
 
-# build artifacts
+# build artifacts, mac
 __pycache__/
 *.pyc
 .DS_Store
+#.envrc
 
 # project
+vars.txt
 *.rpm
 bridge_config.yml
 bridge_config.sh

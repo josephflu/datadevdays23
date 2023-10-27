@@ -1,12 +1,15 @@
-FROM docker.io/redhat/ubi8:8.7
+FROM centos:8
 
-RUN yum update -y & yum install -y wget git unzip
+RUN yum update -y && yum install -y wget git unzip
+
 
 # create user
 RUN groupadd --system --gid 1000 tableau &&  \
     adduser --system --gid 1000 --uid 1000 --shell /bin/bash --home /home/tableau tableau
 
 WORKDIR /home/tableau
+ENV ACCEPT_EULA=y
+
 RUN mkdir -p /home/tableau/bridge_rpm
 
 COPY bridge_config.yml .
