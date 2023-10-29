@@ -25,7 +25,9 @@ These scripts may be useful but are unsupported. Please get help from other user
 
 
 ## Files in this repo
-1. Dockerfile - Dockerfile for creating Tableau Bridge Linux container
-2. bridge_config.yml - yaml file for storing Tableau Bridge information
-3. build_bridge_on_linux_image.sh - bash script for executing docker build to create a container image
-4. run-bridge.sh - bash script for executing docker run to run a container
+/build_docker_basic    folder contents:
+1. download.sh - bash script to download Tableau Bridge Linux .rpm installer file and database drivers.
+2. Dockerfile - Dockerfile for creating Tableau Bridge Linux container.
+3. start-bridgeclient.sh - script copied into container and used to start the bridge client when the container starts.
+4. build_image.sh - bash script for executing docker build to create a container image.
+5. run_container.sh - bash script for executing docker run to run a container.
