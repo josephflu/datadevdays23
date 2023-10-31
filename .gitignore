@@ -10,7 +10,7 @@ __pycache__/
 #.envrc
 
 # project
-#vars.txt
+*.env
 *.rpm
 *.jar
 bridge_config.yml
