@@ -1,4 +1,3 @@
-#FROM centos:8
 FROM docker.io/redhat/ubi8:8.7
 
 RUN yum update -y && yum install -y wget git unzip
