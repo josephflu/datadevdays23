@@ -23,7 +23,7 @@ chrome://extensions/
 <img src="assets/LoadUnpacked.png" alt="Show Load unpacked button In Top Left" width="3562">
 
 #### 4. Select the extensions/ folder 
-Note that the extensions/ folder contains the manifest.json file which defines the chrome extension.
+Note that the extensions/ folder contains the manifest.json file which defines the Chrome extension.
 
 ```
   extension/
@@ -45,5 +45,6 @@ Click the extension icon, select your preferences for the pool, database drivers
 A YAML file containing the newly created PAT tokens and other metadata will be generated, which is needed for onboarding new managed bridge agents.
 
 [Example Generated config.yml File](../bridge_docker_automation/bridge_config.example.yml)
+
 
 
