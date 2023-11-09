@@ -42,7 +42,7 @@ More advanced example of building a Tableau Bridge Linux container image.
 5. start-bridgeclient.sh - script copied into container and used to start the bridge client when the container starts.
 
 #### /extension
-This Google Chrome extension makes it easy to collect the settings as a yaml file needed to run Tableau Bridge on Linux containers. It allows the user to select the Pool, DB drivers, number of tokens to create, and Bridge agent name which is then downloaded as a yaml file to be used in automation scripts for creating and running Bridge on Linux containers. It also creates N PAT tokens, one for each bridge agent.
+This Google Chrome extension makes it easy to collect the settings as a yaml file needed to run Tableau Bridge on Linux containers. It allows the user to select the Pool, DB drivers, number of tokens to create, and Bridge agent name which is then downloaded as a yaml file to be used in automation scripts for creating and running Bridge on Linux containers. It also creates a number of PAT tokens, one for each bridge agent.
 
 #### /scripts
 1. bridge_status.zsh - Call Tableau Cloud APIS to get status of bridge clients.

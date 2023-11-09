@@ -1,9 +1,7 @@
 # Tableau Bridge for Linux Chrome Extension
 
 ### Overview
-This Google Chrome extension makes it easy to collect the settings as a yaml file needed to run Tableau Bridge on Linux containers. 
-It allows the user to select the Pool, DB drivers, number of tokens to create, and Bridge agent name which is then downloaded as a 
-yaml file to be used in automation scripts for creating and running Bridge on Linux containers.
+This Google Chrome extension makes it easy to collect the settings as a yaml file needed to run Tableau Bridge on Linux containers. It allows the user to select the Pool, DB drivers, number of tokens to create, and Bridge agent name which is then downloaded as a yaml file to be used in automation scripts for creating and running Bridge on Linux containers. It also creates a number of PAT tokens, one for each bridge agent.
 
 ### Instructions
 
