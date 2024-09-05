@@ -9,7 +9,7 @@ https://www.tableau.com/learn/webinars/datadev-day-2023-11-02
 
 
 ### Updated Content
-# Note, for updated content please see this new repository: https://github.com/tableau/bridgectl
+# Note, for updated content please see this new repository: https://github.com/tab-se/bridgectl
 
 
 
